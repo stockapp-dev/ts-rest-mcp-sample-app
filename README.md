@@ -173,7 +173,7 @@ export const createTask = async ({ body, req }) => {
 
 ## Learn More
 
-- **[Read the full blog post](../post.md)** - Deep dive into the architecture and why this pattern matters
+- **[Read the full blog post](https://blog.stockapp.com/ship-fast-to-both-humans-and-ai-using-ts-rest-mcp/)** - Deep dive into the architecture and why this pattern matters
 - **[ts-rest documentation](https://ts-rest.com)** - Learn about contract-first API development
 - **[MCP Protocol](https://modelcontextprotocol.io)** - Understand the Model Context Protocol  
 - **[Mastra](https://mastra.ai)** - AI agent framework used in this demo
