@@ -4,6 +4,8 @@ Automatically expose [ts-rest](https://ts-rest.com/) API endpoints as [MCP](http
 
 Both your UI and AI assistant call the same route handlers with identical auth, validation, and business logic.
 
+**[Read the full blog post](https://blog.stockapp.com/ship-fast-to-both-humans-and-ai-using-ts-rest-mcp/)** - Deep dive into the architecture and why this pattern matters
+
 ## Quick Start
 
 **Prerequisites:** Node.js 18+ and [OpenAI API key](https://platform.openai.com/api-keys)
