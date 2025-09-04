@@ -29,6 +29,9 @@ You'll see a task management interface with:
 - **Left panel:** Direct REST API interaction using ts-rest client
 - **Right panel:** AI assistant using the same endpoints via MCP tools
 
+![ts-rest + MCP Demo Interface](https://d2xm45dyri6raz.cloudfront.net/blog/ts-rest-mcp-1.png)
+*The split interface showing REST API on the left and AI Assistant powered by MCP tools on the right*
+
 ## 📁 Project Structure
 
 ```
@@ -93,10 +96,7 @@ The demo UI demonstrates the pattern in action:
 - **Left panel:** Direct REST API interaction using a type-safe ts-rest client
 - **Right panel:** AI assistant using MCP tools to perform the same operations
 
-![ts-rest + MCP Demo Interface](https://d2xm45dyri6raz.cloudfront.net/blog/ts-rest-mcp-1.png)
-*The split interface showing REST API on the left and AI Assistant powered by MCP tools on the right*
-
-Try creating a task in the left panel, then asking the AI assistant: *"Show me all tasks"* - you'll see your task immediately because both interfaces use the same in-memory database and route handlers.
+Try creating a task in the left panel, then asking the AI assistant: *"Show me all tasks"* - you'll see your tasks immediately because both interfaces use the same in-memory database and route handlers.
 
 ![AI Assistant Creating Tasks](https://d2xm45dyri6raz.cloudfront.net/blog/ts-rest-mcp-2.png)
 *The AI assistant creating and managing tasks using MCP tools that call the same route handlers as the REST API*
