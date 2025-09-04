@@ -6,6 +6,8 @@ Both your UI and AI assistant call the same route handlers with identical auth, 
 
 **[Read the full blog post](https://blog.stockapp.com/ship-fast-to-both-humans-and-ai-using-ts-rest-mcp/)** - Deep dive into the architecture and why this pattern matters
 
+**[Want to work at StockApp?](https://jobs.gem.com/stockapp-com/am9icG9zdDrn6SMHftuUvPVUl3Uvxzhc)** – We're hiring for all engineering roles ❤️
+
 ## Quick Start
 
 **Prerequisites:** Node.js 18+ and [OpenAI API key](https://platform.openai.com/api-keys)
