@@ -1,0 +1,19 @@
+{
+  "name": "ts-rest-mcp-demo",
+  "version": "1.0.0",
+  "description": "Demo showing unified REST + MCP with ts-rest",
+  "private": true,
+  "packageManager": "npm@10.0.0",
+  "workspaces": [
+    "packages/*",
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}
